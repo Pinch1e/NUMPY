@@ -8,7 +8,7 @@ def multiply(x, y): return np.multiply(x, y)
 def divide(x, y): return np.divide(x, y)
 
 # GUI functionality
-def calculate():
+def +calculate():
     x = float(entry1.get())
     y = float(entry2.get())
     operation = op.get()
@@ -46,3 +46,4 @@ result = tk.StringVar()
 tk.Label(root, textvariable=result).pack()
 
 root.mainloop()
+

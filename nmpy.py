@@ -1,0 +1,1 @@
+f = open("nmpy1.py", "x")
